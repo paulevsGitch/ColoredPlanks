@@ -15,7 +15,7 @@
 		"discord": "https://discord.gg/qxcP8EjkUC"
 	},
 
-	"license": "MIT",
+	"license": "LGPL-2.1",
 	"icon": "assets/coloredplanks/icon.png",
 
 	"environment": "*",
