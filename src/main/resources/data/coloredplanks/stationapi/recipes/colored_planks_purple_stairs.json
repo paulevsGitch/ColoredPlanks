@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"  X",
+		" XX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "coloredplanks:colored_planks_purple"
+		}
+	},
+	"result": {
+		"item": "coloredplanks:colored_planks_stairs_purple",
+		"count": 6
+	}
+}

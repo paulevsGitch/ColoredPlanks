@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"X"
+	],
+	"key": {
+		"X": {
+			"item": "coloredplanks:colored_planks_lime"
+		}
+	},
+	"result": {
+		"item": "coloredplanks:colored_planks_button_lime"
+	}
+}

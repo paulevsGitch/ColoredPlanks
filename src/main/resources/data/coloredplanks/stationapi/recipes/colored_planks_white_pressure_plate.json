@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XX"
+	],
+	"key": {
+		"X": {
+			"item": "coloredplanks:colored_planks_white"
+		}
+	},
+	"result": {
+		"item": "coloredplanks:colored_planks_pressure_plate_white"
+	}
+}

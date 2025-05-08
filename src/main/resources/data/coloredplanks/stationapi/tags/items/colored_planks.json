@@ -1,0 +1,21 @@
+{
+	"values": [
+		"minecraft:oak_planks",
+		"coloredplanks:colored_planks_black",
+		"coloredplanks:colored_planks_blue",
+		"coloredplanks:colored_planks_brown",
+		"coloredplanks:colored_planks_cyan",
+		"coloredplanks:colored_planks_gray",
+		"coloredplanks:colored_planks_green",
+		"coloredplanks:colored_planks_light_blue",
+		"coloredplanks:colored_planks_light_gray",
+		"coloredplanks:colored_planks_lime",
+		"coloredplanks:colored_planks_magenta",
+		"coloredplanks:colored_planks_orange",
+		"coloredplanks:colored_planks_pink",
+		"coloredplanks:colored_planks_purple",
+		"coloredplanks:colored_planks_red",
+		"coloredplanks:colored_planks_white",
+		"coloredplanks:colored_planks_yellow"
+	]
+}
