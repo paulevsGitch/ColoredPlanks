@@ -6,7 +6,7 @@
 		"XXX"
 	],
 	"key": {
-		"X": { "tag": "coloredplanks:colored_planks" },
+		"X": { "tag": "minecraft:planks" },
 		"D": {
 			"item": "minecraft:dye",
 			"damage": 15
