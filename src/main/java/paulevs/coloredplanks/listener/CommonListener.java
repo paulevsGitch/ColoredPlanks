@@ -7,6 +7,7 @@ import net.minecraft.recipe.RecipeRegistry;
 import net.modificationstation.stationapi.api.event.recipe.RecipeRegisterEvent;
 import net.modificationstation.stationapi.api.event.recipe.RecipeRegisterEvent.Vanilla;
 import net.modificationstation.stationapi.api.event.registry.BlockRegistryEvent;
+import net.modificationstation.stationapi.api.recipe.FuelRegistry;
 import net.modificationstation.stationapi.api.registry.ItemRegistry;
 import net.modificationstation.stationapi.api.util.Identifier;
 import paulevs.coloredplanks.ColoredPlanks;
@@ -81,6 +82,13 @@ public class CommonListener {
 	
 	@EventListener
 	public void onRecipesRegister(RecipeRegisterEvent event) {
+		if (event.recipeId == RecipeRegisterEvent.Vanilla.SMELTING.type()) {
+			for (Block block :CommonListener.BLOCKS) {
+				FuelRegistry.addFuelItem(block.asItem(), block.isFullCube() ? 300 : 100);
+			}
+			return;
+		}
+		
 		if (event.recipeId == Vanilla.CRAFTING_SHAPED.type()) {
 			List<Recipe> modRecipes = new ArrayList<>();
 			List<Recipe> otherRecipes = new ArrayList<>();
